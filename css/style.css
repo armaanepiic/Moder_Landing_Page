@@ -1053,6 +1053,11 @@ video {
   padding-right: 0px;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-\[110px\] {
   padding-bottom: 110px;
 }
@@ -1109,6 +1114,11 @@ video {
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1407,6 +1417,10 @@ h1,h2,h3,h4,h5,h6 {
 
   .xl\:border-r {
     border-right-width: 1px;
+  }
+
+  .xl\:border-t {
+    border-top-width: 1px;
   }
 
   .xl\:border-accent {
