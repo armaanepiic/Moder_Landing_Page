@@ -30,6 +30,8 @@ const sr = ScrollReveal({
     // reset: true,
 });
 
+
+
 // // hero
 // sr.reveal(".hero__text", { origin: "left", delay: 100 });
 // sr.reveal('.steps__step', { distance: '100px', interval: 50 });
