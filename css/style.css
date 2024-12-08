@@ -827,6 +827,14 @@ video {
   max-width: 810px;
 }
 
+.max-w-\[640px\] {
+  max-width: 640px;
+}
+
+.max-w-sm {
+  max-width: 24rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -953,6 +961,11 @@ video {
   background-color: rgb(205 162 116 / var(--tw-bg-opacity, 1));
 }
 
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 47 54 / var(--tw-bg-opacity, 1));
+}
+
 .bg-hero {
   background-image: url(/assets/assets/hero/bg.jpg);
 }
@@ -1070,6 +1083,11 @@ video {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(41 47 54 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .shadow-xl {
@@ -1199,6 +1217,18 @@ h1,h2,h3,h4,h5,h6 {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+@media (min-width: 640px) {
+  .sm\:rounded-\[70px\] {
+    border-radius: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:rounded-\[70px\] {
+    border-radius: 70px;
+  }
+}
+
 @media (min-width: 960px) {
   .lg\:relative {
     position: relative;
@@ -1305,6 +1335,10 @@ h1,h2,h3,h4,h5,h6 {
 
   .xl\:gap-\[74px\] {
     gap: 74px;
+  }
+
+  .xl\:rounded-\[70px\] {
+    border-radius: 70px;
   }
 
   .xl\:rounded-bl-\[290px\] {
